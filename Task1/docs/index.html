@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Video Games</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .game-container {
+      background-color: rgba(46, 46, 63, 0.85);
+      padding: 30px;
+      border-radius: 15px;
+      max-width: 750px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(8px);
+    }
+
+    h1 {
+      color: #00e5ff;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.1em;
+      line-height: 1.6;
+      margin: 20px 0;
+      color: #e0e0e0;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      max-width: 600px;
+      max-height: 350px;
+      object-fit: cover;
+      border-radius: 15px;
+      box-shadow: 0 10px 20px rgba(0, 255, 255, 0.3);
+      margin-bottom: 20px;
+    }
+
+    button {
+      padding: 12px 28px;
+      background-color: #00bcd4;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+      margin-bottom: 20px;
+    }
+
+    button:hover {
+      background-color: #0097a7;
+      transform: scale(1.05);
+    }
+
+    .link-section {
+      margin-top: 20px;
+    }
+
+    .link-section a {
+      color: #81d4fa;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .link-section a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="game-container">
+    <h1>The World of Video Games</h1>
+    <img src="https://img.freepik.com/premium-photo/cyberpunk-gaming-controller-gamepad-joystick-illustration_691560-5812.jpg" alt="Video Game Controller">
+    <p>
+      Video games have evolved into a powerful form of entertainment, offering immersive experiences across genres like action, adventure, puzzle, and simulation. Whether played for fun, competition, or storytelling, games bring people together and challenge creativity and reflexes. With the rise of eSports and virtual reality, the gaming industry continues to push the boundaries of technology and interaction.
+    </p>
+    <button onclick="alert('🎮 Let\'s play a game!')">Play Now</button>
+
+    <div class="link-section">
+      <p>👉 Visit an example game website: 
+        <a href="https://www.ign.com/" target="_blank">IGN – Latest Gaming News & Reviews</a>
+      </p>
+    </div>
+  </div>
+
+</body>
+</html>
